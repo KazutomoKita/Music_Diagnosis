@@ -15,6 +15,9 @@
 		7D7DE7B7243C57F500717905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7DE7B5243C57F500717905 /* LaunchScreen.storyboard */; };
 		7D7DE7C2243C57F500717905 /* Music_DiagnosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DE7C1243C57F500717905 /* Music_DiagnosisTests.swift */; };
 		7D7DE7CD243C57F500717905 /* Music_DiagnosisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DE7CC243C57F500717905 /* Music_DiagnosisUITests.swift */; };
+		7D7DE7DC243C5B5200717905 /* start.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7D7DE7DB243C5B5200717905 /* start.csv */; };
+		7D7DE7DE243C5E1800717905 /* ShindanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DE7DD243C5E1800717905 /* ShindanViewController.swift */; };
+		7D7DE7E0243C5F9900717905 /* shindan.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7D7DE7DF243C5F9900717905 /* shindan.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7D7DE7C8243C57F500717905 /* Music_DiagnosisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Music_DiagnosisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7DE7CC243C57F500717905 /* Music_DiagnosisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_DiagnosisUITests.swift; sourceTree = "<group>"; };
 		7D7DE7CE243C57F500717905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D7DE7DB243C5B5200717905 /* start.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.csv; path = "../../../../Downloads/iPhone-appli_7_2/世界一受けたいiPhoneアプリ開発の授業/Chapter7/素材/csv/start.csv"; sourceTree = "<group>"; };
+		7D7DE7DD243C5E1800717905 /* ShindanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShindanViewController.swift; sourceTree = "<group>"; };
+		7D7DE7DF243C5F9900717905 /* shindan.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = shindan.csv; path = ../../../../Downloads/shindan.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,9 @@
 				7D7DE7AA243C57F400717905 /* AppDelegate.swift */,
 				7D7DE7AC243C57F400717905 /* SceneDelegate.swift */,
 				7D7DE7AE243C57F400717905 /* ViewController.swift */,
+				7D7DE7DD243C5E1800717905 /* ShindanViewController.swift */,
 				7D7DE7B0243C57F400717905 /* Main.storyboard */,
+				7D7DE7DA243C5ACD00717905 /* csv */,
 				7D7DE7B3243C57F500717905 /* Assets.xcassets */,
 				7D7DE7B5243C57F500717905 /* LaunchScreen.storyboard */,
 				7D7DE7B8243C57F500717905 /* Info.plist */,
@@ -126,6 +134,15 @@
 				7D7DE7CE243C57F500717905 /* Info.plist */,
 			);
 			path = Music_DiagnosisUITests;
+			sourceTree = "<group>";
+		};
+		7D7DE7DA243C5ACD00717905 /* csv */ = {
+			isa = PBXGroup;
+			children = (
+				7D7DE7DB243C5B5200717905 /* start.csv */,
+				7D7DE7DF243C5F9900717905 /* shindan.csv */,
+			);
+			path = csv;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D7DE7B7243C57F500717905 /* LaunchScreen.storyboard in Resources */,
+				7D7DE7DC243C5B5200717905 /* start.csv in Resources */,
 				7D7DE7B4243C57F500717905 /* Assets.xcassets in Resources */,
+				7D7DE7E0243C5F9900717905 /* shindan.csv in Resources */,
 				7D7DE7B2243C57F400717905 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +280,7 @@
 			files = (
 				7D7DE7AF243C57F400717905 /* ViewController.swift in Sources */,
 				7D7DE7AB243C57F400717905 /* AppDelegate.swift in Sources */,
+				7D7DE7DE243C5E1800717905 /* ShindanViewController.swift in Sources */,
 				7D7DE7AD243C57F400717905 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
