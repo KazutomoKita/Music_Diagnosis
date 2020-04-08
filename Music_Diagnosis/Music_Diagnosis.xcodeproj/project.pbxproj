@@ -18,6 +18,8 @@
 		7D7DE7DC243C5B5200717905 /* start.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7D7DE7DB243C5B5200717905 /* start.csv */; };
 		7D7DE7DE243C5E1800717905 /* ShindanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DE7DD243C5E1800717905 /* ShindanViewController.swift */; };
 		7D7DE7E0243C5F9900717905 /* shindan.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7D7DE7DF243C5F9900717905 /* shindan.csv */; };
+		7D7DE7E2243C654100717905 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DE7E1243C654100717905 /* ResultViewController.swift */; };
+		7D7DE7E4243C6A2D00717905 /* result.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7D7DE7E3243C6A2D00717905 /* result.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		7D7DE7DB243C5B5200717905 /* start.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.csv; path = "../../../../Downloads/iPhone-appli_7_2/世界一受けたいiPhoneアプリ開発の授業/Chapter7/素材/csv/start.csv"; sourceTree = "<group>"; };
 		7D7DE7DD243C5E1800717905 /* ShindanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShindanViewController.swift; sourceTree = "<group>"; };
 		7D7DE7DF243C5F9900717905 /* shindan.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = shindan.csv; path = ../../../../Downloads/shindan.csv; sourceTree = "<group>"; };
+		7D7DE7E1243C654100717905 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		7D7DE7E3243C6A2D00717905 /* result.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = result.csv; path = ../../../../Downloads/result.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				7D7DE7AC243C57F400717905 /* SceneDelegate.swift */,
 				7D7DE7AE243C57F400717905 /* ViewController.swift */,
 				7D7DE7DD243C5E1800717905 /* ShindanViewController.swift */,
+				7D7DE7E1243C654100717905 /* ResultViewController.swift */,
 				7D7DE7B0243C57F400717905 /* Main.storyboard */,
 				7D7DE7DA243C5ACD00717905 /* csv */,
 				7D7DE7B3243C57F500717905 /* Assets.xcassets */,
@@ -141,6 +146,7 @@
 			children = (
 				7D7DE7DB243C5B5200717905 /* start.csv */,
 				7D7DE7DF243C5F9900717905 /* shindan.csv */,
+				7D7DE7E3243C6A2D00717905 /* result.csv */,
 			);
 			path = csv;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 				7D7DE7B4243C57F500717905 /* Assets.xcassets in Resources */,
 				7D7DE7E0243C5F9900717905 /* shindan.csv in Resources */,
 				7D7DE7B2243C57F400717905 /* Main.storyboard in Resources */,
+				7D7DE7E4243C6A2D00717905 /* result.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D7DE7E2243C654100717905 /* ResultViewController.swift in Sources */,
 				7D7DE7AF243C57F400717905 /* ViewController.swift in Sources */,
 				7D7DE7AB243C57F400717905 /* AppDelegate.swift in Sources */,
 				7D7DE7DE243C5E1800717905 /* ShindanViewController.swift in Sources */,
